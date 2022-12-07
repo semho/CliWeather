@@ -4,7 +4,7 @@ import axios from "axios";
 const getIcon = (icon) => {
   switch (icon.slice(0, -1)) {
     case "01":
-      return "🌞";
+      return "☀";
     case "02":
       return "⛅";
     case "03":
